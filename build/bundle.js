@@ -5973,6 +5973,8 @@ function animate(dt) {
         animate(delegateArg0);
     });
     bunny.rotation = bunny.rotation + 0.1;
+    bunny.position.x = Math.sin(dt / 1000) * 100 + 250;
+    bunny.position.y = -Math.cos(dt / 1000) * 100 + 250;
     renderer.render(stage);
 }
 animate(0);

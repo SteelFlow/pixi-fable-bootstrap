@@ -33,6 +33,8 @@ stage.addChild(bunny) |> ignore
 let rec animate (dt:float) =
     window.requestAnimationFrame(FrameRequestCallback animate) |> ignore
     bunny.rotation <- bunny.rotation + 0.1
+    bunny.position.x <- sin(dt / 1000.) * 100. + 250.
+    bunny.position.y <- -cos(dt / 1000.) * 100. + 250.
     renderer.render(stage)
 
 animate 0.
