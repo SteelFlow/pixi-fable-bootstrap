@@ -1,0 +1,20 @@
+{
+  "name": "pixifable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fable-compiler": "^0.7.42",
+    "fable-core": "^0.7.26",
+    "pixi.js": "^4.3.4",
+    "core-js": "^2.4.1"
+  },
+  "devDependencies": {
+    "fable-import-pixi": "0.0.10"
+  }
+}

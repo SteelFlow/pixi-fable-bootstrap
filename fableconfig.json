@@ -1,0 +1,13 @@
+{
+    "projFile": "src/game.fsx",
+    "sourceMaps": true,
+    "watch": true,
+    "verbose": true,
+    "rollup": {
+        "dest": "build/bundle.js",
+        "external": ["PIXI"],
+        "globals": {
+            "PIXI": "PIXI"
+        }
+    }
+}
