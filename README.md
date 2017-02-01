@@ -1,7 +1,9 @@
 # Simple Pixi.js Fable Compiler setup
 
 ### Build and watch
-`fable`
+`npm install` Install stuff
+
+`fable` Build and watch
 
 ### Run with http-server
 `npm install -g http-server`
