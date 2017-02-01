@@ -3,12 +3,8 @@
 #load "fable-import-pixi/Fable.Import.Pixi.fs"
 
 open Fable.Core
-open Fable.Core.JsInterop
 open Fable.Import.PIXI
 open Fable.Import.Browser
-
-importAll "core-js"
-
 let options = [
     BackgroundColor ( float 0x1099bb )
     Resolution 1.
@@ -28,7 +24,6 @@ bunny.anchor.y <- 0.5
 bunny.position.x <- 250.
 bunny.position.y <- 250.
 stage.addChild(bunny) |> ignore
-
 
 let rec animate (dt:float) =
     window.requestAnimationFrame(FrameRequestCallback animate) |> ignore
