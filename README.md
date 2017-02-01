@@ -1,11 +1,11 @@
 # Simple Pixi.js Fable Compiler setup
 
 ### Dependencies
-Fable Compiler
+[Fable Compiler](http://fable.io/) 
 `npm install -g fable-compiler`
 
 #### Nice-to-have
-Http-Server
+[Http-Server](https://www.npmjs.com/package/http-server)
 `npm install -g http-server`
 
 ### Build and watch
