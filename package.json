@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "core-js": "^2.4.1",
     "fable-compiler": "^0.7.42",
     "fable-core": "^0.7.26",
     "pixi.js": "^4.3.4"
